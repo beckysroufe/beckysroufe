@@ -1,0 +1,19 @@
+{
+	"links": [
+		{
+			"className": "middleman",
+			"bgImg": "../images/svg/logo-middleman.svg",
+			"href": "https://middlemanapp.com/"
+		},
+		{
+			"className": "sass",
+			"bgImg": "../images/svg/logo-sass.svg",
+			"href": "http://sass-lang.com/"
+		},
+		{
+			"className": "jquery",
+			"bgImg": "../images/svg/logo-jquery.svg",
+			"href": "https://jquery.com/"
+		}
+	]
+}

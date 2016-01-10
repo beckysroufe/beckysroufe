@@ -3,7 +3,7 @@ title: Becky Sroufe | UI Designer & Front End Developer
 ---
 
 <header class="header header--home">
-	<div class="logo"></div>
+	<div class="header--home_logo"></div>
 
 	<h1>
 		UI Designer <span class="ampersand">&amp;</span> Front End Developer
@@ -17,11 +17,16 @@ title: Becky Sroufe | UI Designer & Front End Developer
 </header>
 
 <main class="main main--home">
-	<ul class="main--home_work">
-		<li></li>
+	<!-- Work Examples -->
+	<ul class="main--home_work_examples">
+	;laksdjf;alksdjf
+		<% data.work.works.each do |work| %>
+		<li class="<%= work.className %>"></li>
+		<% end %>
 	</ul>
 
+	<!-- Contact -->
 	<div class="main--home_contact">
-	Let's Chat!
+		Let's Chat!
 	</div>
 </main>

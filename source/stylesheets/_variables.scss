@@ -503,7 +503,18 @@ $transition-time: 		  	  0.35s;
 // Link Sliding Border Size
 $slide-border-size: 		  3px;
 
+// Icons
+$icon-size: 				  30px;
+$icon-size-x2: 				  $icon-size*2;
+$icon-gutter: 				  5px;
+
+// Header Padding
+$header-padding: 			  50px;
+
+// Avatar Size
+$avatar-size: 				  200px;
+
 // Divider Height
 $divider-height: 			  20px;
 $divider-margin: 			  20px;
-$tilt-degree: 				  2deg;
+$tilt-degree: 				  1deg;
