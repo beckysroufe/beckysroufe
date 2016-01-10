@@ -2,27 +2,22 @@
 	"links": [
 		{
 			"className": "dribbble",
-			"bgImg": "../images/svg/logo-middleman.svg",
 			"href": "https://www.dribbble.com/beckysroufe"
 		},
 		{
 			"className": "twitter",
-			"bgImg": "../images/svg/logo-sass.svg",
 			"href": "https://www.twitter.com/beckysroufe"
 		},
 		{
 			"className": "github",
-			"bgImg": "../images/svg/logo-jquery.svg",
 			"href": "https://www.github.com/beckysroufe"
 		},
 		{
 			"className": "linkedin",
-			"bgImg": "../images/svg/logo-jquery.svg",
 			"href": "https://www.linkedin.com/in/beckysroufe"
 		},
 		{
-			"className": "mail",
-			"bgImg": "../images/svg/logo-jquery.svg",
+			"className": "envelope",
 			"href": "mailto:becky@beckysroufe.com"
 		}
 	]

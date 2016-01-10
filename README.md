@@ -3,6 +3,7 @@
 **Project Setup**<br />
 To run project:
 ```
+bundle install
 bundle exec middleman
 ```
 

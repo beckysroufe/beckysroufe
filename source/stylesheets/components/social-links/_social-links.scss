@@ -11,12 +11,42 @@
 	}
 
 	.icon {
-		background-image: url("../../../images/svg/icons-social.svg");
+		position: relative;
+		font-size: 2em;
+		font-weight: 100;
+		background-size: $icon-size*2;
+		vertical-align: middle;
+
+		@media screen and (min-width: $screen-desktop) {
+			font-size: 1.5em;
+		}
 	}
 
-	.dribbble {
-		padding: $icon-size*0.25;
-		background-position: 0 0;
-		background-size: $icon-size*5.25;
+	.fa {
+		color: $gray-dark;
+
+		&:hover {
+			transform: scale(1.1);
+		}
+
+		&-dribbble {
+			&:hover { color: $brand-dribbble; }
+		}
+
+		&-twitter {
+			&:hover { color: $brand-twitter; }
+		}
+
+		&-linkedin {
+			&:hover { color: $brand-linkedin; }
+		}
+
+		&-github {
+			&:hover { color: $brand-github; }
+		}
+
+		&-envelope {
+			&:hover { color: $brand-blue; }
+		}
 	}
 }

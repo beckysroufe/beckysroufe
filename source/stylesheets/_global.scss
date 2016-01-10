@@ -24,7 +24,7 @@ a {
   }
 
   &:visited {
-    color: darken($brand-red, 15%);
+    color: $brand-red;
   }
 
   &:hover {
