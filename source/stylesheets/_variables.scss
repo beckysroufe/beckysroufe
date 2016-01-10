@@ -500,6 +500,9 @@ $hr-border:                   $gray-lighter !default;
 // Standardize transition times
 $transition-time: 		  	  0.35s;	
 
+// Standard padding
+$global-padding: 			  5%;
+
 // Link Sliding Border Size
 $slide-border-size: 		  3px;
 
@@ -511,8 +514,9 @@ $icon-gutter: 				  5px;
 // Header Padding
 $header-padding: 			  50px;
 
-// Avatar Size
+// Avatar
 $avatar-size: 				  200px;
+$avatar-tablet: 			  10%;
 
 // Divider Height
 $divider-height: 			  20px;

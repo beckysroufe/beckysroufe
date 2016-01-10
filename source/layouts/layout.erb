@@ -17,8 +17,12 @@
   <body class="<%= page_classes %>">
     <%= yield %>
 
-    <footer>
-      <%= partial "components/footer/footer" %>
+    <footer class="footer">
+      <%= partial "components/social-links/social-links" %>
+      <div class="footer_info">
+        <%= partial "components/footer/footer" %>
+        <%= partial "components/web-tools/web-tools" %>
+      </div>
     </footer>
   </body>
 </html>

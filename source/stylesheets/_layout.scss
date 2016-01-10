@@ -1,15 +1,22 @@
 // Header
 .header {
-	padding: $header-padding/2 0 $header-padding;
+	padding: $header-padding/2 $global-padding $header-padding $global-padding;
 
 	@media screen and (min-width: $screen-tablet) {
-		padding: $header-padding*2 0 $header-padding*2 0;
+		padding: $header-padding 0 $header-padding*2 0;
 	}
 
 	&--home {
 		background: $brand-neutral;
+		text-align: center;
 
 		@media screen and (min-width: $screen-tablet) {
+			padding: $global-padding $global-padding*2 $global-padding*1.5 $global-padding*2;
+		}
+
+		@media screen and (min-width: $screen-desktop) {
+			padding: $header-padding*1.5 $global-padding*2 $header-padding*1.5 50%;
+			text-align: left;
 			background: $brand-white;
 			background-image: url("http://placekitten.com/g/1400/500");
 			background-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 65%), url("http://placekitten.com/g/1400/500");
@@ -19,17 +26,48 @@
 		}
 
 		&_logo {
+			position: relative;
+			height: $avatar-size*1.9;
+			background: url("http://placehold.it/350x150") bottom center no-repeat;
+			background-size: $avatar-size*1.5;
+
+			@media screen and (min-width: $screen-tablet) {
+				height: $avatar-size*1.2;
+				background-position: right $avatar-tablet center;
+			}
+
+			@media screen and (min-width: $screen-desktop) {
+				height: $avatar-size*0.75;
+				background-position: left top;
+			}
+
+			// Avatar above logo
 			&:before {
 				@include center-block;
 
 				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
 				width: $avatar-size;
 				height: $avatar-size;
-				background: url("http://placehold.it/350x350") center no-repeat;
+				background-image: url("http://placehold.it/350x350");
+				background-position: center;
+				background-repeat: no-repeat;
 				border: 10px $brand-white solid;
 				border-radius: 50%;
 				box-shadow: 0 0 10px rgba(0,0,0,0.15);
 
+				// Pulls to left on tablet screen
+				@media screen and (min-width: $screen-tablet) {
+					left: $avatar-tablet;
+					right: auto;
+					display: inline-block;
+					margin: 0;
+				}
+
+				// Disappears on large desktop screen
 				@media screen and (min-width: $screen-desktop) {
 					display: none;
 				}
@@ -44,7 +82,7 @@
 
 	// Creates top blue divider
 	&:before,
-	&--home_work_examples:after {
+	&--home_work:after {
 		content: '';
 	  position: absolute;
 	  display: block;
@@ -61,6 +99,7 @@
 	  -webkit-backface-visibility: hidden;
 	}
 
+	// Global top divider
 	&:before {
 		top: -#{$divider-height};
 		background: -moz-linear-gradient(top, #68bdb6 0%, #68bdb6 50%, #afdcd8 50%, #afdcd8 100%); /* FF3.6-15 */
@@ -69,28 +108,29 @@
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68bdb6', endColorstr='#afdcd8',GradientType=0 );
 	}
 
-	&--home_work_examples:after {
-		margin-top: $divider-height/2;
-		background: -moz-linear-gradient(top,  #afdcd8 0%, #afdcd8 50%, #68bdb6 50%, #68bdb6 100%);
-		background: -webkit-linear-gradient(top,  #afdcd8 0%,#afdcd8 50%,#68bdb6 50%,#68bdb6 100%);
-		background: linear-gradient(to bottom,  #afdcd8 0%,#afdcd8 50%,#68bdb6 50%,#68bdb6 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afdcd8', endColorstr='#68bdb6',GradientType=0 );
-	}
-
-	// Home page style
+	// Home
 	&--home {
+		padding-top: $divider-margin;
+		background-color: lighten($brand-blue, 20%);
 
-		&:before {
-			// margin-bottom: $divider-margin;
+		&_title {
+			display: none;
 		}
 
 		// Home > Work
 		&_work {
-			&_examples {
-				@include list-reset;
-				padding-top: $divider-margin*1.5;
-				padding-bottom: $divider-margin*1.5;
-				background-color: lighten($brand-blue, 20%);
+			@include list-reset;
+			padding-top: $divider-margin*1.5;
+			padding-bottom: $divider-margin*1.5;
+			background-color: lighten($brand-blue, 20%);
+
+			// Establish divider color (inverse of top)
+			&:after {
+				margin-top: $divider-height/2;
+				background: -moz-linear-gradient(top,  #afdcd8 0%, #afdcd8 50%, #68bdb6 50%, #68bdb6 100%);
+				background: -webkit-linear-gradient(top,  #afdcd8 0%,#afdcd8 50%,#68bdb6 50%,#68bdb6 100%);
+				background: linear-gradient(to bottom,  #afdcd8 0%,#afdcd8 50%,#68bdb6 50%,#68bdb6 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afdcd8', endColorstr='#68bdb6',GradientType=0 );
 			}
 		}
 
@@ -108,6 +148,12 @@
 			  -ms-transform: skewY(#{$tilt-degree});
 			  -o-transform: skewY(#{$tilt-degree});
 			  transform: skewY(#{$tilt-degree});
+			}
+
+			@media screen and (min-width: $screen-desktop) {
+				// Reinstate when contact form available 
+				// padding: 75px 10% 75px 50%; // Note: same as header--home
+	  		text-align: left;
 			}
 		}
 	}

@@ -1,13 +1,10 @@
-footer {
-	margin-top: -($divider-margin)*2;
-	padding-top: $divider-margin*3;
+//= Footer
+//
+
+.footer {
 	padding-bottom: $divider-margin/2;
 	background-color: $brand-neutral;
 	font-size: $font-size-base;
-
-	&_copy {
-		background-color: $brand-blue;
-	}
 
 	a {
 		// Reset to omit sliding border
@@ -23,61 +20,13 @@ footer {
 		vertical-align: middle;
 	}
 
-	.settings {
-		@include center-block;
-
-		width: $icon-size*0.75;
-		height: $icon-size*0.75;
-
-		@media screen and (min-width: $screen-tablet) {
-			display: inline-block;
-			margin: 0;
-		}
-
-		padding: 0 $icon-gutter;
-		background: transparent url("../../../images/svg/tools.svg") center no-repeat;
-	}
-
-	.love {
-		background: transparent url("../../../images/svg/heart.svg") center no-repeat;
-	}
-
-	.web-tools {
-		@include list-reset;
-
+	&_info {
+		width: 50%;
 		display: inline-block;
-
-		.icon {
-			width: $icon-size*1.25;
-			height: $icon-size*1.25;
-
-			@media screen and (min-width: $screen-tablet) {
-				width: $icon-size;
-				height: $icon-size;
-			}
-
-			&.jquery {
-				width: $icon-size-x2*1.25;
-
-				@media screen and (min-width: $screen-tablet) {
-					//width: $icon-size-x2;
-				}
-			}
-		}
+		text-align: right;
 	}
+}
 
-	.middleman {
-		background: transparent url("../../../images/svg/logo-middleman.svg") center no-repeat;
-		background-size: 100%;
-	}
-
-	.sass {
-		background: transparent url("../../../images/svg/logo-sass.svg") center no-repeat;
-		background-size: 100%;
-	}
-
-	.jquery {
-		background: transparent url("../../../images/svg/logo-jquery.svg") center no-repeat;
-		background-size: 100%;
-	}
+.copyright {
+	display: inline-block;
 }

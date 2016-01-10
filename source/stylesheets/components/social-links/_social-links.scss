@@ -1,0 +1,22 @@
+//= Social
+//
+
+.social-links {
+	@include list-reset;
+
+	float: left;
+
+	&_network {
+		display: inline;
+	}
+
+	.icon {
+		background-image: url("../../../images/svg/icons-social.svg");
+	}
+
+	.dribbble {
+		padding: $icon-size*0.25;
+		background-position: 0 0;
+		background-size: $icon-size*5.25;
+	}
+}

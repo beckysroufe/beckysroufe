@@ -1,0 +1,11 @@
+Made with 
+	<span class="icon love"></span>
+	<span class="ampersand">&amp;</span>
+	
+<ul class="web-tools">
+	<% data.footer.links.each do |link| %>
+	<li class="web-tools_tool">
+		<a class="icon <%= link.className %>" href="<%= link.href %>" target="_blank"></a>
+	</li>
+	<% end %>
+</ul>

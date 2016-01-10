@@ -1,0 +1,64 @@
+//= Web Tools
+//
+
+.settings {
+	@include center-block;
+
+	width: $icon-size*0.75;
+	height: $icon-size*0.75;
+
+	@media screen and (min-width: $screen-tablet) {
+		display: inline-block;
+		margin: 0;
+	}
+
+	padding: 0 $icon-gutter;
+	background: transparent url("../../../images/svg/tools.svg") center no-repeat;
+}
+
+.love {
+	background: transparent url("../../../images/svg/heart.svg") center no-repeat;
+}
+
+.web-tools {
+	@include list-reset;
+
+	display: inline-block;
+
+	&_tool {
+		display: inline-block;
+	}
+
+	.icon {
+		width: $icon-size*1.25;
+		height: $icon-size*1.25;
+
+		@media screen and (min-width: $screen-tablet) {
+			width: $icon-size;
+			height: $icon-size;
+		}
+
+		&.jquery {
+			width: $icon-size-x2*1.25;
+
+			@media screen and (min-width: $screen-tablet) {
+				//width: $icon-size-x2;
+			}
+		}
+	}
+}
+
+.middleman {
+	background: transparent url("../../../images/svg/logo-middleman.svg") center no-repeat;
+	background-size: 100%;
+}
+
+.sass {
+	background: transparent url("../../../images/svg/logo-sass.svg") center no-repeat;
+	background-size: 100%;
+}
+
+.jquery {
+	background: transparent url("../../../images/svg/logo-jquery.svg") center no-repeat;
+	background-size: 100%;
+}
