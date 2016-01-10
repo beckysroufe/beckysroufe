@@ -1,8 +1,50 @@
 body {
-  background: #ECC561;
-  text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $font-family-sans-serif;
   font-size: 1em;
+  color: $brand-purple;
+  text-align: center;
+  background: $brand-white;
+}
+
+// Link Styles
+a {
+  display: inline-block;
+  position: relative;
+  padding-bottom: $slide-border-size;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all $transition-time ease-in-out;
+
+  &:link,
+  &:active {
+    color: $brand-red;
+  }
+
+  &:visited {
+    color: darken($brand-red, 15%);
+  }
+
+  &:hover {
+    color: $brand-blue;
+
+    // To help create sliding border effect on hover
+    &:after {
+      width: 100%;
+      background: $brand-blue;
+    }
+  }
+
+  // Create sliding border effect
+  &:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: $slide-border-size;
+    width: 0px;
+    background: transparent;
+    transition: width $transition-time ease, background-color $transition-time ease;
+  }
 }
 
 .logo img {
@@ -11,33 +53,14 @@ body {
 }
 
 h1 {
-  color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
   margin: 0;
+  color: $brand-purple;
+  font-family: $font-family-sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
 }
 
-.doc {
-  margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  font-weight: 300;
-
-  a {
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 0.75em 0.7em;
-    color: white;
-    text-decoration: none;
-    transition: color 0.1s linear;
-    &:hover {
-      background: rgba(0,0,0,0.2);
-      color: white;
-      transition: all 0.15s linear;
-    }
-  }
-}
+.ampersand { font-family: $font-family-serif; }
 
 .welcome {
   -webkit-animation-name: welcome;

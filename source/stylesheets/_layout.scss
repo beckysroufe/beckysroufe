@@ -1,0 +1,57 @@
+// Header
+.header {
+	margin: 20px 0;
+
+	&--home {
+		background-color: $brand-white;
+		// background: $brand-white url("http://placekitten.com/g/1400/500") center top no-repeat;
+		background-size: cover;
+	}
+}
+
+// Main
+.main {
+	background-color: lighten($brand-blue, 20%);
+
+	// Creates top blue divider
+	&:before {
+		content: "";
+		display: block;
+		height: $divider-height;
+		background: $brand-blue;
+	}
+
+	// Home page style
+	&--home {
+		-webkit-transform: skewY(-#{$tilt-degree});
+	  -moz-transform: skewY(-#{$tilt-degree});
+	  -ms-transform: skewY(-#{$tilt-degree});
+	  -o-transform: skewY(-#{$tilt-degree});
+	  transform: skewY(-#{$tilt-degree});
+	  z-index: -1;
+	  -webkit-backface-visibility: hidden;
+
+		&:before {
+			margin-bottom: $divider-margin;
+		}
+
+		&_work {
+			@include list-reset;
+
+			&:after {
+				margin-top: $divider-margin;
+			}
+			
+			&:after {
+				content: "";
+				display: block;
+				height: $divider-height;
+				background: $brand-blue;
+			}
+		}
+
+		&_contact {
+			background-color: $brand-neutral;
+		}
+	}
+}
