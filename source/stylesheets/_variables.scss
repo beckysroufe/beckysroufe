@@ -121,9 +121,9 @@ $caret-width-large:         5px !default;
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-font-weight:                normal !default;
+$btn-font-weight:                bold !default;
 
-$btn-default-color:              #333 !default;
+$btn-default-color:              #fff !default;
 $btn-default-bg:                 #fff !default;
 $btn-default-border:             #ccc !default;
 
@@ -508,6 +508,9 @@ $transition-time: 		  	  0.25s;
 // Standard padding
 $global-padding: 			  5%;
 
+// Form padding
+$form-padding: 				  $global-padding*0.5;
+
 // Link Sliding Border Size
 $slide-border-size: 		  3px;
 
@@ -527,4 +530,4 @@ $avatar-tablet: 			  10%;
 // Divider Height
 $divider-height: 			  20px;
 $divider-margin: 			  20px;
-$tilt-degree: 				  1deg;
+$tilt-degree: 				  2deg;

@@ -1,0 +1,91 @@
+//= Contact Form
+//
+
+.contact-form {
+	@include center-block;
+
+	width: 80%;
+
+	label {
+		@extend .hidden;
+	}
+
+	input,
+	textarea {
+		padding: $global-padding*0.5 $global-padding*0.5;
+
+		@media screen and (min-width: $screen-tablet) {
+			padding: $global-padding*0.25 $global-padding*0.3;
+		}
+
+		@media screen and (min-width: $screen-desktop) {
+			padding: $global-padding*0.15 $global-padding*0.25;
+		}
+	}
+
+	&_name,
+	&_phone,
+	&_email,
+	&_message,
+	&_btn-submit {
+		@include center-block;
+
+		width: 100%-$global-padding;
+		margin: $form-padding/2 0 0 0;
+	  border: 2px darken($brand-neutral, 10%) solid;
+	  border-radius: 3px;
+
+	  @media screen and (min-width: $screen-desktop) {
+	  	margin: $form-padding/4 0 0 0;
+	  }
+	}
+
+	&_name { 
+		@media screen and (min-width: $screen-tablet) {
+			margin-right: 1%;
+		}
+	}
+
+	&_phone{
+		@include center-block;
+	}
+
+	&_name,
+	&_phone {
+
+		@media screen and (min-width: $screen-tablet) {
+			width: 50%-($global-padding*0.9);
+			display: inline-block;
+		}
+
+		@media screen and (min-width: $screen-desktop) {
+			width: 50%-($global-padding*0.75);
+			display: inline-block;
+		}
+	}
+
+	&_message,
+	&_email {
+		@include center-block;
+
+		@media screen and (min-width: $screen-tablet) {
+			width: 100%-($global-padding*0.8);
+		}
+
+		@media screen and (min-width: $screen-desktop) {
+			width: 100%-($global-padding*0.6);
+		}
+	}
+
+	&_btn-submit {
+		@include center-block;
+
+		width: 50%;
+		line-height: 2em;
+		border: 0;
+
+		@media screen and (min-width: $screen-desktop) {
+			width: 50%;
+		}
+	}
+}

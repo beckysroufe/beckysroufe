@@ -9,8 +9,11 @@
 .btn {
   display: inline-block;
   margin-bottom: 0; // For input.btn
+  color: $brand-white;
+  background-color: $brand-red;
   font-weight: $btn-font-weight;
   text-align: center;
+  text-transform: uppercase;
   vertical-align: middle;
   touch-action: manipulation;
   cursor: pointer;
@@ -19,6 +22,7 @@
   white-space: nowrap;
   @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
   @include user-select(none);
+  transition: all $transition-time ease-in-out;
 
   &,
   &:active,
@@ -26,6 +30,9 @@
     &:focus,
     &.focus {
       @include tab-focus;
+      &:focus {
+        outline: darken($brand-neutral, 20%) auto 5px;
+      }
     }
   }
 
@@ -34,6 +41,7 @@
   &.focus {
     color: $btn-default-color;
     text-decoration: none;
+    background-color: $brand-blue;
   }
 
   &:active,

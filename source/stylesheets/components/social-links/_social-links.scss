@@ -4,11 +4,14 @@
 .social-links {
 	@include list-reset;
 
+	padding: $global-padding;
+
 	&_network {
 		display: inline;
 	}
 
 	@media screen and (min-width: $screen-desktop) {
+		padding: 0;
 		text-align: left;
 	}
 
