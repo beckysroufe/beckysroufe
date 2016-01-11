@@ -503,7 +503,7 @@ $hr-border:                   $gray-lighter !default;
 
 //== Becky Sroufe Custom Variables
 // Standardize transition times
-$transition-time: 		  	  0.35s;	
+$transition-time: 		  	  0.25s;	
 
 // Standard padding
 $global-padding: 			  5%;
@@ -515,6 +515,7 @@ $slide-border-size: 		  3px;
 $icon-size: 				  30px;
 $icon-size-x2: 				  $icon-size*2;
 $icon-gutter: 				  5px;
+$icon-margin: 				  0 $icon-gutter;
 
 // Header Padding
 $header-padding: 			  50px;

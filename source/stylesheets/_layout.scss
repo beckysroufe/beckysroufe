@@ -136,7 +136,7 @@
 
 		// Home > Contact (Let's Chat)
 		&_contact {
-			padding-top: $divider-height*3;
+			padding-top: $divider-height*2; // If form present = *3
 			background-color: $brand-neutral;
 
 			&:after {
@@ -156,5 +156,13 @@
 	  		text-align: left;
 			}
 		}
+	}
+}
+
+.footer_info,
+.social-links {
+	@media screen and (min-width: $screen-desktop) {
+		width: 49.75%;
+		display: inline-block;
 	}
 }

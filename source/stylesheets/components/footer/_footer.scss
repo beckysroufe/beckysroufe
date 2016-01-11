@@ -16,13 +16,10 @@
 
 	// Icons
 	.icon {
-		margin: $icon-gutter;
 		vertical-align: middle;
 	}
 
-	&_info {
-		width: 50%;
-		display: inline-block;
+	@media screen and (min-width: $screen-desktop) {
 		text-align: right;
 	}
 }

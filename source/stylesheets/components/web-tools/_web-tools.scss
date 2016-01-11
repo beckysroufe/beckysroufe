@@ -1,13 +1,15 @@
 //= Web Tools
 //
 
+.site-made { display: inline-block; }
+
 .settings {
 	@include center-block;
 
 	width: $icon-size*0.75;
 	height: $icon-size*0.75;
 
-	@media screen and (min-width: $screen-tablet) {
+	@media screen and (min-width: $screen-desktop) {
 		display: inline-block;
 		margin: 0;
 	}
@@ -17,6 +19,7 @@
 }
 
 .love {
+	margin: $icon-margin;
 	background: transparent url("../../../images/svg/heart.svg") center no-repeat;
 }
 
@@ -32,6 +35,7 @@
 	.icon {
 		width: $icon-size*1.25;
 		height: $icon-size*1.25;
+		margin: 0 $icon-gutter;
 
 		@media screen and (min-width: $screen-tablet) {
 			width: $icon-size;
@@ -44,6 +48,10 @@
 			@media screen and (min-width: $screen-tablet) {
 				//width: $icon-size-x2;
 			}
+		}
+
+		&:hover {
+			transform: scale(1.25);
 		}
 	}
 }
