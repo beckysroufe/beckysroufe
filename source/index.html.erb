@@ -21,21 +21,11 @@ title: Becky Sroufe | UI Designer & Front End Developer
 <main class="main main--home">
 
 	<!-- Work Examples -->
-	<h2 class="main--home_title">Work</h2>
-	<ul class="main--home_work">
-		<% data.work.works.each do |work| %>
-		<li class="<%= work.className %>"></li>
-		<% end %>
-
-		<p>EXAMPLE</p>
-	</ul>
+	<%= partial "components/work/work" %>
 
 	<!-- Contact -->
 	<div class="main--home_contact">
-		<h3>Let's Chat!</h3>
-		<p>
-			Tell me a bit about yourself! Okay, I’ll go first - when away from my keyboard, I can be found co-leading GDI Cincinnati, hiking, growing a succulent garden, taking too many pictures of my dog and savoring craft coffee (or beer, depending on the hour).
-		</p>
+		<%= partial "components/contact-info/contact-info" %>
 		<%= partial "components/contact-form/contact-form" %>
 	</div>
 </main>

@@ -15,7 +15,7 @@
 		}
 
 		@media screen and (min-width: $screen-desktop) {
-			padding: $header-padding*1.5 $global-padding*2 $header-padding*1.5 50%;
+			padding: $header-padding*1.5 $global-padding*2 $header-padding*2 50%;
 			text-align: left;
 			background: $brand-white;
 			background-image: url("http://placekitten.com/g/1400/500");
@@ -88,7 +88,7 @@
 	  display: block;
 	  left: 0;
 	  width: 100%;
-	  height: $divider-height*2;
+	  height: $divider-height*3;
 		background: $brand-blue;
 	  z-index: 1;
 	  -webkit-transform: skewY(-#{$tilt-degree});
@@ -101,7 +101,7 @@
 
 	// Global top divider
 	&:before {
-		top: -#{$divider-height};
+		top: -#{$divider-height*1.5};
 		background: -moz-linear-gradient(top, #68bdb6 0%, #68bdb6 50%, #afdcd8 50%, #afdcd8 100%); /* FF3.6-15 */
 		background: -webkit-linear-gradient(top, #68bdb6 0%,#68bdb6 50%,#afdcd8 50%,#afdcd8 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(to bottom, #68bdb6 0%,#68bdb6 50%,#afdcd8 50%,#afdcd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -126,7 +126,7 @@
 
 			// Establish divider color (inverse of top)
 			&:after {
-				margin-top: $divider-height/2;
+				margin-top: $divider-height/4;
 				background: -moz-linear-gradient(top,  #afdcd8 0%, #afdcd8 50%, #68bdb6 50%, #68bdb6 100%);
 				background: -webkit-linear-gradient(top,  #afdcd8 0%,#afdcd8 50%,#68bdb6 50%,#68bdb6 100%);
 				background: linear-gradient(to bottom,  #afdcd8 0%,#afdcd8 50%,#68bdb6 50%,#68bdb6 100%);
@@ -136,13 +136,33 @@
 
 		// Home > Contact (Let's Chat)
 		&_contact {
-			padding-top: $divider-height*2; // If form present = *3
+			padding-top: $divider-height*4; // If form present = *3
 			background-color: $brand-neutral;
+
+			a {
+				font-weight: normal;
+				text-transform: none;
+			}
 
 			&:after {
 				content: "";
 				display: block;
 				height: $divider-height;
+			}
+
+			&-info,
+			&-form {
+				@include center-block;
+				width: 80%;
+
+				@media screen and (min-width: $screen-desktop) {
+					display: inline-block;
+					width: 43%;
+					padding-left: 2.5%;
+					padding-right: 2.5%;
+					height: 250px;
+					vertical-align: middle;
+				}
 			}
 
 			@media screen and (min-width: $screen-desktop) {
