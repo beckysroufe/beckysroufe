@@ -2,6 +2,8 @@
 //
 
 .footer {
+	padding-left: $global-padding/3;
+	padding-right: $global-padding/3;
 	padding-bottom: $divider-margin/2;
 	background-color: $brand-neutral;
 	font-size: $font-size-base;
