@@ -19,7 +19,9 @@
 }
 
 .love {
-	margin: $icon-margin;
+	width: $icon-size;
+	height: $icon-size;
+	margin: $icon-margin/2;
 	background: transparent url("../../../images/svg/heart.svg") center no-repeat;
 }
 
