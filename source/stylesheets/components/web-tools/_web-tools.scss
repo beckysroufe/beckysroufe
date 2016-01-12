@@ -9,7 +9,7 @@
 	width: $icon-size*0.75;
 	height: $icon-size*0.75;
 
-	@media screen and (min-width: $screen-desktop) {
+	@media screen and (min-width: $screen-phone) {
 		display: inline-block;
 		margin: 0;
 	}
@@ -27,6 +27,12 @@
 	@include list-reset;
 
 	display: inline-block;
+
+	padding: $global-padding/2 0;
+
+	@media screen and (min-width: $screen-desktop) {
+		padding: 0;
+	}
 
 	&_tool {
 		display: inline-block;

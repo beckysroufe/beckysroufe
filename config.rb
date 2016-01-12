@@ -18,7 +18,11 @@
 
 # General configuration
 configure :development do
+	#LiveReload
 	activate :livereload
+
+	# Pretty URLs
+	activate :directory_indexes
 end
 
 # Build-specific configuration
@@ -28,16 +32,14 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
+  # Pretty URLs
+	activate :directory_indexes
+
+  # Fav icon maker on build
+  activate :favicon_maker
 end
 
-
-###
-# Helpers
-###
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+data.pages.projects.each do |work|
+  proxy "/#{work.work}.html", "/work/template.html", :locals => { :work => work }, :ignore => true
+end

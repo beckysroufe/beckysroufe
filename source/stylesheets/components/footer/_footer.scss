@@ -2,9 +2,7 @@
 //
 
 .footer {
-	padding-left: $global-padding/3;
-	padding-right: $global-padding/3;
-	padding-bottom: $divider-margin/2;
+	padding: $global-padding/6 $global-padding/3;
 	background-color: $brand-neutral;
 	font-size: $font-size-base;
 
@@ -28,4 +26,9 @@
 
 .copyright {
 	display: inline-block;
+	padding: $global-padding/2 0;
+
+	@media screen and (min-width: $screen-desktop) {
+		padding: 0;
+	}
 }

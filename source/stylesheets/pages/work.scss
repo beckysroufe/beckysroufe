@@ -1,0 +1,85 @@
+//= Work Page
+//
+
+.header--work {
+	padding: $global-padding;
+
+	&_breadcrumbs {
+		@media screen and (min-width: $screen-desktop) {
+			display: block;
+			margin-left: $global-padding/2;
+			text-align: left;
+		}
+	}
+
+	&_logo {
+		@include center-block;
+
+		height: 100px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 250px;
+
+		@media screen and (min-width: $screen-tablet) {
+			background-position: left center;
+			background-size: 75%;
+		}
+
+		@media screen and (min-width: $screen-desktop) {
+		}
+	}
+
+	.brand {
+		&--lisnr {
+			background-image: url("../../images/logo-lisnr.png");
+		}
+
+		&--api-network {
+		}
+
+		&--callibrity {
+		}
+	}
+
+	&_info {
+		padding: 0 $global-padding $global-padding $global-padding;
+
+		@media screen and (min-width: $screen-desktop) {
+			padding: $global-padding/2 $global-padding;
+			text-align: left;
+		}
+
+		.work {
+			&-title {
+				margin-bottom: 0;
+			}
+
+			&-role {
+				margin-top: 0;
+				font-size: 1.2em;
+				font-weight: normal;
+				font-style: italic;
+			}
+
+			&-description {
+
+			}
+		}
+	}
+
+	// Logo & Info split to two-col on larger screens
+	&_logo,
+	&_info {
+		@media screen and (min-width: $screen-tablet) {
+			width: 50%-($global-padding*1.1);
+			display: inline-block;
+			text-align: left;
+			vertical-align: middle;
+		}
+	}
+}
+
+.main--work {
+	padding: $global-padding;
+	background-color: $brand-blue-light;
+}

@@ -17,6 +17,7 @@ $brand-white: 			#fff; // rgb(255, 255, 255)
 $brand-neutral: 		#f5f0da; // rgb(245, 240, 218)
 $brand-red: 			#e1655a; // rgb(225, 101, 90);
 $brand-blue: 			#68bdb6; // rgb(104, 189, 182)
+$brand-blue-light: 		lighten($brand-blue, 20%);
 $brand-purple: 			#3d252c; // rgb(245, 240, 218)
 
 $brand-dribbble: 		#c32361;

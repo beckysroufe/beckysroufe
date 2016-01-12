@@ -16,3 +16,6 @@ gem 'middleman-livereload'
 
 # Bourbon
 gem 'bourbon'
+
+# Fav Icon Maker
+gem 'middleman-favicon-maker'
