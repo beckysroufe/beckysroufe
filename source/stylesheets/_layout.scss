@@ -30,6 +30,7 @@
 			height: $avatar-size*1.9;
 			background: url("http://placehold.it/350x150") bottom center no-repeat;
 			background-size: $avatar-size*1.5;
+			animation: fadeInDown $animation-timing;
 
 			@media screen and (min-width: $screen-tablet) {
 				height: $avatar-size*1.2;
@@ -72,6 +73,10 @@
 					display: none;
 				}
 			}
+		}
+
+		&_info {
+			animation: fadeInUp $animation-timing;
 		}
 	}
 }

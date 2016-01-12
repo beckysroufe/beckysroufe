@@ -40,6 +40,6 @@ configure :build do
   activate :favicon_maker
 end
 
-data.pages.projects.each do |work|
+data.work.works.each do |work|
   proxy "/#{work.work}.html", "/work/template.html", :locals => { :work => work }, :ignore => true
 end

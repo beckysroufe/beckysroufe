@@ -2,6 +2,7 @@
 
 <ul class="main--home_work">
 	<% data.work.works.each do |work| %>
-	<li class="<%= work.className %>"></li>
+	<li class="main--home_work_<%= work.className %>">
+		<a href="/<%= work.className %>"></li>
 	<% end %>
 </ul>
