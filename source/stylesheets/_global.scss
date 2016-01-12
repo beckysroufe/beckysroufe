@@ -47,6 +47,21 @@ a {
     background: transparent;
     transition: width $transition-time ease, background-color $transition-time ease;
   }
+
+  &.btn {
+    color: $brand-white;
+    padding-bottom: $padding-base-vertical;
+
+    &:hover {
+      &:after {
+        display: none;
+      }
+    }
+
+    &:after {
+      display: none;
+    }
+  }
 }
 
 .hidden {
@@ -73,4 +88,8 @@ a {
 
 .icon-link {
   padding-right: $icon-gutter;
+
+  .btn & {
+    color: $brand-white;
+  }
 }
