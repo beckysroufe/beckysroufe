@@ -80,7 +80,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 //** By default, this inherits from the `<body>`.
 $headings-font-family:    inherit !default;
 $headings-font-weight:    bold;
-$headings-line-height:    1.1 !default;
+$headings-line-height:    1 !default;
 $headings-color:          $brand-purple;
 
 
@@ -507,7 +507,7 @@ $hr-border:                   $gray-lighter !default;
 $transition-time: 		  	  0.25s;	
 
 // Animation Timing
-$animation-timing: 			  1s ease-in-out;
+$animation-timing: 			  0.65s ease-in-out;
 
 // Standard padding
 $global-padding: 			  5%;
@@ -530,6 +530,12 @@ $header-padding: 			  50px;
 // Avatar
 $avatar-size: 				  200px;
 $avatar-tablet: 			  10%;
+
+// Logo
+$logo-size: 				  220px;
+
+// Work
+$work-size: 				  500px;
 
 // Divider Height
 $divider-height: 			  20px;

@@ -28,18 +28,24 @@
 		&_logo {
 			position: relative;
 			height: $avatar-size*1.9;
-			background: url("http://placehold.it/350x150") bottom center no-repeat;
+			background: url("../../images/svg/becky-sroufe.svg");
+			background-position: center bottom;
+			background-repeat: no-repeat;
 			background-size: $avatar-size*1.5;
 			animation: fadeInDown $animation-timing;
 
 			@media screen and (min-width: $screen-tablet) {
 				height: $avatar-size*1.2;
 				background-position: right $avatar-tablet center;
+				background-size: 50%;
 			}
 
 			@media screen and (min-width: $screen-desktop) {
-				height: $avatar-size*0.75;
-				background-position: left top;
+				height: $logo-size;
+				background: url("../../images/becky-sroufe.png");
+				background-repeat: no-repeat;
+				background-position: left bottom;
+				background-size: $logo-size*1.75;
 			}
 
 			// Avatar above logo
@@ -77,6 +83,18 @@
 
 		&_info {
 			animation: fadeInUp $animation-timing;
+
+			&_role {
+				padding: 0;
+			}
+
+			&_description {
+				margin-bottom: $global-padding*0.75;
+			}
+		}
+
+		&_description {
+			font-size: $font-size-base*1.5;
 		}
 	}
 }
@@ -137,6 +155,29 @@
 				background: linear-gradient(to bottom,  #afdcd8 0%,#afdcd8 50%,#68bdb6 50%,#68bdb6 100%);
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afdcd8', endColorstr='#68bdb6',GradientType=0 );
 			}
+
+			&_sample {
+				@include center-block;
+
+				margin: $global-padding $global-padding/2;
+				height: $work-size*0.75;
+
+				@media screen and (min-width: $screen-tablet) {
+					margin: $global-padding/4;
+					display: inline-block;
+					width: 45%;
+				}
+
+				@media screen and (min-width: $screen-lg-desktop) {
+					width: 30%;
+					height: $work-size*0.8;
+				}
+
+				&_page {
+					width: 100%;
+					height: 100%;
+				}
+			}
 		}
 
 		// Home > Contact (Let's Chat)
@@ -176,6 +217,16 @@
 	  		text-align: left;
 			}
 		}
+	}
+}
+
+// Home Page > Work Samples
+.home-work {
+	&--example {
+		background-image: url("http://placehold.it/800x700");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 

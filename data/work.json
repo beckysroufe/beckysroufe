@@ -2,6 +2,7 @@
 	"works": [
 		{
 			"className": 		"lisnr",
+			"title":				"LISNR Content Portal",
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"UX/UI Designer, Front-End Developer",
@@ -23,6 +24,7 @@
 		},
 		{
 			"className": 		"api-network",
+			"title":				"LISNR Content Portal",
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 			 		"http://placekitten.com/g/800/500",
 			"role":					"UX/UI Designer, Front-End Developer",
@@ -44,6 +46,7 @@
 		},
 		{
 			"className": 		"callibrity-solutions",
+			"title":				"LISNR Content Portal",
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"UX/UI Designer, Front-End Developer",
