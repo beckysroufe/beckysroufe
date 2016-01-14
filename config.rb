@@ -41,5 +41,5 @@ configure :build do
 end
 
 data.work.works.each do |work|
-  proxy "/#{work.className}.html", "/work/template.html", :locals => { :work => work }, :ignore => true
+  proxy "/project-#{work.className}.html", "/work/template.html", :locals => { :work => work }, :ignore => true
 end

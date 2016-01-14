@@ -7,10 +7,9 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    background: $brand-red;
     cursor: pointer;
     box-shadow: 0 0 5px darken($brand-blue, 5%);
-    transition: box-shadow 0.35s;
+    transition: box-shadow $transition-time;
 
     @media screen and (min-width: $screen-tablet) {
       display: inline-block;
@@ -22,8 +21,9 @@
       min-height: 100%;
       max-width: 100%;
       background: url("http://placekitten.com/g/1200/800") center no-repeat;
-      -webkit-transition: opacity 0.35s;
-      transition: opacity 0.35s;
+      -webkit-transition: opacity $transition-time;
+      transition: opacity $transition-time;
+      z-index: 1;
     }
 
     .caption {
@@ -38,6 +38,7 @@
       font-size: 1.25em;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
+      z-index: 0;
 
       &::before,
       &::after {
@@ -48,8 +49,8 @@
         left: 30px;
         content: '';
         opacity: 0;
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transition: opacity $transition-time, -webkit-transform $transition-time;
+        transition: opacity $transition-time, transform $transition-time;
         pointer-events: none;
       }
 
@@ -85,19 +86,18 @@
 
       &_title {
         opacity: 0;
-        -webkit-transition: -webkit-transform 0.35s;
-        transition: transform 0.35s;
+        -webkit-transition: -webkit-transform $transition-time;
+        transition: transform $transition-time;
         -webkit-transform: translate3d(0,-20px,0);
         transform: translate3d(0,-20px,0);
-        word-spacing: -0.15em;
         font-weight: bold;
       }
 
       &_role {
         padding: $global-padding/4 2.5em;
         opacity: 0;
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transition: opacity $transition-time, -webkit-transform $transition-time;
+        transition: opacity $transition-time, transform $transition-time;
         -webkit-transform: translate3d(0,20px,0);
         transform: translate3d(0,20px,0);
         letter-spacing: 1px;
@@ -109,11 +109,13 @@
     &:hover {
       box-shadow: 0 0 15px darken($brand-blue, 8%);
 
-      .work-image {
-        opacity: 0.4;
-      }
-
       .caption {
+        background: rgba(255, 101, 90, 0.8);
+
+        &:hover {
+          transition: background $transition-time ease-in-out, opacity $transition-time ease-in-out;
+        }
+
         &::before,
         &::after {
           opacity: 1;

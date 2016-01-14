@@ -3,13 +3,16 @@
 <ul class="main--home_work grid">
 	<% data.homeWork.works.each do |sample| %>
 	<li class="main--home_work_sample work-effect">
-		<a class="main--home_work_sample_page home-work--<%= sample.title %> work-image" href="<%= sample.href %>"></a>
-		<div class="caption">
-			<div class="caption_detail">
-				<h2 class="caption_title"><%= sample.title %></h2>
-				<p class="caption_role"><%= sample.role %></p>
+		<a class="main--home_work_sample_page home-work--<%= sample.title %> work-image" href="project-<%= sample.href%>">
+
+			<div class="caption">
+				<div class="caption_detail">
+					<h2 class="caption_title"><%= sample.title %></h2>
+					<p class="caption_role"><%= sample.role %></p>
+				</div>
 			</div>
-		</div>
+
+		</a>
 	</li>
 	<% end %>
 </ul>
