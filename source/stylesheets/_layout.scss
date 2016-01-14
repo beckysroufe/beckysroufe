@@ -176,7 +176,7 @@
 				&_page {
 					width: 100%;
 					height: 100%;
-					
+
 					// Create sliding border effect
 				  &:after {
 				    display: none;
@@ -227,11 +227,8 @@
 
 // Home Page > Work Samples
 .home-work {
-	&--example {
-		background-image: url("http://placehold.it/800x700");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+	&--lisnr {
+		background-image: url("http://placekitten.com/g/1200/800");
 	}
 }
 

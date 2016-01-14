@@ -20,10 +20,16 @@
       display: block;
       min-height: 100%;
       max-width: 100%;
-      background: url("http://placekitten.com/g/1200/800") center no-repeat;
-      -webkit-transition: opacity $transition-time;
-      transition: opacity $transition-time;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 150%;
+      -webkit-transition: all $transition-time;
+      transition: all $transition-time;
       z-index: 1;
+
+      &:hover {
+        background-size: 155%;
+      }
     }
 
     .caption {
