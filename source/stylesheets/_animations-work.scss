@@ -67,14 +67,23 @@
         transform: scale(1,0);
       }
 
+      &_detail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 50px;
+        margin: auto;
+      }
+
       &_title,
-      &_info {
+      &_role {
         margin: 0;
         color: $brand-white;
       }
 
       &_title {
-        padding-top: 30%;
         opacity: 0;
         -webkit-transition: -webkit-transform 0.35s;
         transition: transform 0.35s;
@@ -84,7 +93,7 @@
         font-weight: bold;
       }
 
-      &_info {
+      &_role {
         padding: $global-padding/4 2.5em;
         opacity: 0;
         -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -113,7 +122,7 @@
         }
 
         &_title,
-        &_info {
+        &_role {
           opacity: 1;
           -webkit-transform: translate3d(0,0,0);
           transform: translate3d(0,0,0);

@@ -5,8 +5,10 @@
 	<li class="main--home_work_sample work-effect">
 		<a class="main--home_work_sample_page home-work--<%= sample.title %> work-image" href="<%= sample.href %>"></a>
 		<div class="caption">
-			<h2 class="caption_title">Fresh Bubba</h2>
-			<p class="caption_info">Bubba likes to appear out of thin air.</p>
+			<div class="caption_detail">
+				<h2 class="caption_title"><%= sample.title %></h2>
+				<p class="caption_role"><%= sample.role %></p>
+			</div>
 		</div>
 	</li>
 	<% end %>
