@@ -19,8 +19,15 @@ title:
 </header>
 
 <main class="main main--work">
-	<div class="<%= work.className %>-screen--">
-	</div>
+
+	<ul class="main--home_work grid">
+		<% data.homeWork.works.each do |sample| %>
+		<li class="main--home_work_sample work-effect">
+			<a class="main--home_work_sample_page home-work--<%= sample.href %> work-image" href="project-<%= sample.href%>">
+			</a>
+		</li>
+		<% end %>
+	</ul>
 
 	<a class="btn" href="/">
 		<%= partial "components/icon-link/icon-link" %>
