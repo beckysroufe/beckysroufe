@@ -1,0 +1,124 @@
+.grid {
+  position: relative;
+  list-style: none;
+  text-align: center;
+
+  .work-effect {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: $brand-red;
+    cursor: pointer;
+    box-shadow: 0 0 5px darken($brand-blue, 5%);
+    transition: box-shadow 0.35s;
+
+    @media screen and (min-width: $screen-tablet) {
+      display: inline-block;
+    }
+
+    .work-image {
+      position: relative;
+      display: block;
+      min-height: 100%;
+      max-width: 100%;
+      background: url("http://placekitten.com/g/1200/800") center no-repeat;
+      -webkit-transition: opacity 0.35s;
+      transition: opacity 0.35s;
+    }
+
+    .caption {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1.25em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+
+      &::before,
+      &::after {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        left: 30px;
+        content: '';
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        pointer-events: none;
+      }
+
+      &:before {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: scale(0,1);
+        transform: scale(0,1);
+      }
+
+      &:after {
+        border-right: 1px solid #fff;
+        border-left: 1px solid #fff;
+        -webkit-transform: scale(1,0);
+        transform: scale(1,0);
+      }
+
+      &_title,
+      &_info {
+        margin: 0;
+        color: $brand-white;
+      }
+
+      &_title {
+        padding-top: 30%;
+        opacity: 0;
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
+        -webkit-transform: translate3d(0,-20px,0);
+        transform: translate3d(0,-20px,0);
+        word-spacing: -0.15em;
+        font-weight: bold;
+      }
+
+      &_info {
+        padding: $global-padding/4 2.5em;
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(0,20px,0);
+        transform: translate3d(0,20px,0);
+        letter-spacing: 1px;
+        font-size: 68.5%;
+      }
+    }
+
+    // Hover Effect
+    &:hover {
+      box-shadow: 0 0 15px darken($brand-blue, 8%);
+
+      .work-image {
+        opacity: 0.4;
+      }
+
+      .caption {
+        &::before,
+        &::after {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+
+        &_title,
+        &_info {
+          opacity: 1;
+          -webkit-transform: translate3d(0,0,0);
+          transform: translate3d(0,0,0);
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,13 @@
 <h2 class="main--home_title">Work</h2>
 
-<ul class="main--home_work">
+<ul class="main--home_work grid">
 	<% data.homeWork.works.each do |sample| %>
-	<li class="main--home_work_sample">
-		<a class="main--home_work_sample_page home-work--<%= sample.title %>" href="<%= sample.href %>"></a>
+	<li class="main--home_work_sample work-effect">
+		<a class="main--home_work_sample_page home-work--<%= sample.title %> work-image" href="<%= sample.href %>"></a>
+		<div class="caption">
+			<h2 class="caption_title">Fresh Bubba</h2>
+			<p class="caption_info">Bubba likes to appear out of thin air.</p>
+		</div>
 	</li>
 	<% end %>
 </ul>
