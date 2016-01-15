@@ -96,6 +96,13 @@ a.btn {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
 
+// Previous / Back Button
+a.btn-previous {
+  @include center-block;
+
+  width: 60px;
+}
+
 
 // Link buttons
 // -------------------------
