@@ -23,15 +23,15 @@ title:
 	<ul class="main--home_work grid">
 		<% work.screens.each do |screen| %>
 		<li class="main--home_work_sample work-effect">
-			<a class="js-open-modal main--home_work_sample_page home-work-- work-image" href="#" data-modal-id="js-popup">
+			<a class="js-open-modal main--home_work_sample_page home-work-- work-image" href="#" data-modal-id="js-popup-<%= screen.className %>">
 				<img src="<%= screen.img %>" alt="" title="" />
 			</a>
-		</li>
 
-		<div id="js-popup" class="modal">
-			<a href="#" class="js-modal-close close">×</a>
-			<img src="<%= screen.img %>" alt="" title="" />
-		</div>
+			<div id="js-popup-<%= screen.className %>" class="modal">
+				<a href="#" class="js-modal-close close">×</a>
+				<img src="<%= screen.img %>" alt="" title="" />
+			</div>
+		</li>
 		<% end %>
 
 		<a class="btn btn-previous" href="/">
