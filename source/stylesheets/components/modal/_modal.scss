@@ -1,7 +1,8 @@
+//= Modal
+//
 
 .modal {
   width: 100%;
-  height: 100%;
   display: none;
   position: absolute;
   margin: auto;
@@ -14,26 +15,33 @@
   }
 
   img { 
-    width: 90%; 
+    width: 90%;
     position: absolute; 
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto; }
+    margin: auto; 
+
+    @media screen and (min-width: $screen-tablet) {
+      width: auto;
+      height: 100%;
+    }
+  }
 
   &-body { padding: 2em 1.5em; }
 
   &-overlay {
     opacity: 0;
     filter: alpha(opacity=0);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 900;
     width: 100%;
     height: 100%;
-    background: rgba(61, 37, 44, 0.8) !important;
+    background: rgba(0, 0, 0, 1); // rgba(61, 37, 44, 0.8);
+    overflow: hidden;
   }
 
   a.close {

@@ -52,10 +52,10 @@ var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");
 	  });
 	});
 	 
-	$(window).resize(function() {
-	  $(".modal").css({
-	  });
-	});
+	// $(window).resize(function() {
+	//   $(".modal").css({
+	//   });
+	//});
  
 $(window).resize();
  
