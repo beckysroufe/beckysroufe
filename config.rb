@@ -35,9 +35,6 @@ configure :build do
 
   # Pretty URLs
 	activate :directory_indexes
-
-  # Fav icon maker on build
-  activate :favicon_maker
 end
 
 data.work.works.each do |work|

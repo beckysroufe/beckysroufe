@@ -18,24 +18,26 @@ title: Projects | Becky Sroufe | UI Designer & Front End Developer
 	</div>
 </header>
 
-<main class="main main--work">
+<div class="main-container container--work">
+	<main class="main main--work">
 
-	<ul class="main--home_work grid">
-		<% work.screens.each do |screen| %>
-		<li class="main--home_work_sample work-effect">
-			<a class="js-open-modal main--home_work_sample_page home-work-- work-image" href="#" data-modal-id="js-popup-<%= screen.className %>">
-				<img src="<%= screen.img %>" alt="" title="" />
+		<ul class="main--home_work grid">
+			<% work.screens.each do |screen| %>
+			<li class="main--home_work_sample work-effect">
+				<a class="js-open-modal main--home_work_sample_page home-work-- work-image" href="#" data-modal-id="js-popup-<%= screen.className %>">
+					<img src="<%= screen.img %>" alt="" title="" />
+				</a>
+
+				<div id="js-popup-<%= screen.className %>" class="modal">
+					<a href="#" class="js-modal-close close">×</a>
+					<img src="<%= screen.img %>" alt="" title="" />
+				</div>
+			</li>
+			<% end %>
+
+			<a class="btn btn-previous" href="/">
+				<%= partial "components/icon-link/icon-link" %>
 			</a>
-
-			<div id="js-popup-<%= screen.className %>" class="modal">
-				<a href="#" class="js-modal-close close">×</a>
-				<img src="<%= screen.img %>" alt="" title="" />
-			</div>
-		</li>
-		<% end %>
-
-		<a class="btn btn-previous" href="/">
-			<%= partial "components/icon-link/icon-link" %>
-		</a>
-	</ul>
-</main>
+		</ul>
+	</main>
+</div>

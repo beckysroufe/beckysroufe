@@ -20,14 +20,17 @@ title: Becky Sroufe | UI Designer & Front End Developer
 	</div>
 </header>
 
-<main class="main main--home">
+<div class="main-container">
+	<main class="main main--home">
 
-	<!-- Work Examples -->
-	<%= partial "components/work/work" %>
+		<!-- Work Examples -->
+		<%= partial "components/work/work" %>
 
-	<!-- Contact -->
-	<div class="main--home_contact">
-		<%= partial "components/contact-info/contact-info" %>
-		<%= partial "components/contact-form/contact-form" %>
-	</div>
-</main>
+		<!-- Contact -->
+		<div class="main--home_contact">
+			<%= partial "components/contact-info/contact-info" %>
+			<%= partial "components/contact-form/contact-form" %>
+		</div>
+		
+	</main>
+</div>

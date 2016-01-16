@@ -102,6 +102,10 @@
 	}
 }
 
+.container--work {
+	margin-bottom: 35px;
+}
+
 // Main
 .main {
 	position: relative;
@@ -117,12 +121,12 @@
 	  height: $divider-height*3;
 		background: $brand-blue;
 	  z-index: 1;
-	  -webkit-transform: skewY(-#{$tilt-degree});
-	  -moz-transform: skewY(-#{$tilt-degree});
-	  -ms-transform: skewY(-#{$tilt-degree});
-	  -o-transform: skewY(-#{$tilt-degree});
-	  transform: skewY(-#{$tilt-degree});
-	  -webkit-backface-visibility: hidden;
+	  // -webkit-transform: skewY(-#{$tilt-degree});
+	  // -moz-transform: skewY(-#{$tilt-degree});
+	  // -ms-transform: skewY(-#{$tilt-degree});
+	  // -o-transform: skewY(-#{$tilt-degree});
+	  // transform: skewY(-#{$tilt-degree});
+	  // -webkit-backface-visibility: hidden;
 	}
 
 	// Global top divider
