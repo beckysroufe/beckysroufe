@@ -1,7 +1,9 @@
 <ul class="social-links">
+
 	<% data.social.links.each do |network| %>
 	<li class="social-links_network">
 		<a class="fa fa-<%= network.className %> icon" href="<%= network.href %>"></a>
 	</li>
 	<% end %>
+	
 </ul>
