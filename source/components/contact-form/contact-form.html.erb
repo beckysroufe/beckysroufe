@@ -1,17 +1,23 @@
-<form id="js-form-contact" class="main--home_contact-form result" action="form-send.php" method="POST">
+<div class="main--home_contact-form">
 
-	<label for="name">Name</label>
-	<input class="contact-form_name" name="name" id="name" type="text" placeholder="Name" required />
+	<div class="result"></div>
 
-	<label for="phone">Phone</label>
-	<input class="contact-form_phone" name="phone" id="phone" type="tel" placeholder="Phone" />
+	<form id="js-form-contact" action="form-send.php" method="POST">
 
-	<label for="email">E-mail</label>
-	<input class="contact-form_email" name="email" id="email" type="email" placeholder="E-mail" required />
+		<label for="name">Name</label>
+		<input class="contact-form_name" name="name" id="name" type="text" placeholder="Name" required />
 
-	<label for="message">Message</label>
-	<textarea class="contact-form_message" name="message" id="message" placeholder="Message" required></textarea>
+		<label for="phone">Phone</label>
+		<input class="contact-form_phone" name="phone" id="phone" type="tel" placeholder="Phone" />
 
-	<button class="btn contact-form_btn-submit" type="submit"><i class="fa fa-paper-plane  icon-link"></i>Send</button>
-	
-</form>
+		<label for="email">E-mail</label>
+		<input class="contact-form_email" name="email" id="email" type="email" placeholder="E-mail" required />
+
+		<label for="message">Message</label>
+		<textarea class="contact-form_message" name="message" id="message" placeholder="Message" required></textarea>
+
+		<button class="btn contact-form_btn-submit" type="submit"><i class="fa fa-paper-plane  icon-link"></i>Send</button>
+		
+	</form>
+
+</div>

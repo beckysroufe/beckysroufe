@@ -72,6 +72,12 @@ a {
   }
 }
 
+.result {
+  @media screen and (min-width: $screen-desktop) {
+    margin-top: 40px;
+  }
+}
+
 .hidden {
   position:absolute;
   left:-10000px;
