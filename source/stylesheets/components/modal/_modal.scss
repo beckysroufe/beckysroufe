@@ -1,12 +1,10 @@
 
 .modal {
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
   display: none;
   position: absolute;
   margin: auto;
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 1000;
 
   @media (min-width: $screen-desktop) {
@@ -14,6 +12,15 @@
     height: 90%;
     margin:auto;
   }
+
+  img { 
+    width: 90%; 
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; }
 
   &-body { padding: 2em 1.5em; }
 
@@ -26,7 +33,7 @@
     z-index: 900;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3) !important;
+    background: rgba(61, 37, 44, 0.8) !important;
   }
 
   a.close {
@@ -36,8 +43,10 @@
     top: 0;
     right: 2%;
     text-decoration: none;
-    color: $brand-red;
+    color: $brand-white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
     z-index: 1;
+    transform: scale(1.1);
 
     @media screen and (min-width: $screen-desktop) {
       font-size: 2.5/2;
@@ -45,9 +54,9 @@
 
     &:hover {
       color: $brand-blue;
-      -webkit-transition: color $transition-time ease;
-      -moz-transition: color $transition-time ease;
-      transition: color $transition-time ease;
+      -webkit-transition: all $transition-time ease;
+      -moz-transition: all $transition-time ease;
+      transition: all $transition-time ease;
     }
 
     &:after {

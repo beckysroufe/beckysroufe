@@ -21,14 +21,16 @@ title:
 <main class="main main--work">
 
 	<ul class="main--home_work grid">
-		<% data.homeWork.works.each do |sample| %>
+		<% work.screens.each do |screen| %>
 		<li class="main--home_work_sample work-effect">
-			<a class="js-open-modal main--home_work_sample_page home-work--<%= sample.href %> work-image" href="#" data-modal-id="js-popup">
+			<a class="js-open-modal main--home_work_sample_page home-work-- work-image" href="#" data-modal-id="js-popup">
+				<img src="<%= screen.img %>" alt="" title="" />
 			</a>
 		</li>
 
 		<div id="js-popup" class="modal">
 			<a href="#" class="js-modal-close close">×</a>
+			<img src="<%= screen.img %>" alt="" title="" />
 		</div>
 		<% end %>
 

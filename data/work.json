@@ -14,55 +14,7 @@
 				},
 				{
 					"className": "web",
-					"img": "http://placecorgi.com/800/600/"
-				},
-				{
-					"className": "web",
-					"img": "http://placecorgi.com/800/600/"
-				}
-			]
-		},
-		{
-			"className": 		"api-network",
-			"title":				"LISNR Content Portal",
-			"logo": 				"/images/logo-lisnr.png",
-			"img": 			 		"http://placekitten.com/g/800/500",
-			"role":					"UX/UI Designer, Front-End Developer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
-			"screens": [
-				{
-					"className": "web",
-					"img": "http://placecorgi.com/800/600/"
-				},
-				{
-					"className": "web",
-					"img": "http://placecorgi.com/800/600/"
-				},
-				{
-					"className": "web",
-					"img": "http://placecorgi.com/800/600/"
-				}
-			]
-		},
-		{
-			"className": 		"callibrity-solutions",
-			"title":				"LISNR Content Portal",
-			"logo": 				"/images/logo-lisnr.png",
-			"img": 					"http://placekitten.com/g/800/500",
-			"role": 				"UX/UI Designer, Front-End Developer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
-			"screens": [
-				{
-					"className": "web",
-					"img": "http://placecorgi.com/800/600/"
-				},
-				{
-					"className": "web",
-					"img": "http://placecorgi.com/800/600/"
-				},
-				{
-					"className": "web",
-					"img": "http://placecorgi.com/800/600/"
+					"img": "http://placekitten.com/g/800/800"
 				}
 			]
 		}

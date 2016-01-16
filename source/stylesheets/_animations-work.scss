@@ -40,8 +40,8 @@
       height: 100%;
       padding: 0;
       color: #fff;
-      text-transform: uppercase;
       font-size: 1.25em;
+      text-transform: none;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       z-index: 0;
@@ -106,8 +106,7 @@
         transition: opacity $transition-time, transform $transition-time;
         -webkit-transform: translate3d(0,20px,0);
         transform: translate3d(0,20px,0);
-        letter-spacing: 1px;
-        font-size: 68.5%;
+        font-size: 80%;
         font-weight: normal;
       }
     }
