@@ -1,7 +1,71 @@
 {
 	"works": [
 		{
-			"className": 		"lisnr",
+			"className": 		"api-network-endpoint-manager",
+			"title":				"API Network Endpoint Manager",
+			"logo": 				"/images/logo-lisnr.png",
+			"img": 					"/images/work/api-network-billing-module/01-dashboard.png",
+			"role": 				"UX/UI Designer, Front-End Developer",
+			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"screens": [
+				{
+					"className": "api-network-endpoint-manager-01",
+					"img": "/images/work/api-network-endpoint-manager/01-create-account.png"
+				},
+				{
+					"className": "api-network-endpoint-manager-02A",
+					"img": "/images/work/api-network-endpoint-manager/02A-dashboard-grid.png"
+				},
+				{
+					"className": "api-network-endpoint-manager-02B",
+					"img": "/images/work/api-network-endpoint-manager/02B-dashboard-list.png"
+				},
+				{
+					"className": "api-network-endpoint-manager-03",
+					"img": "/images/work/api-network-endpoint-manager/03-app-overview.png"
+				},
+				{
+					"className": "api-network-endpoint-manager-04",
+					"img": "/images/work/api-network-endpoint-manager/04-app-add-service.png"
+				},
+				{
+					"className": "api-network-endpoint-manager-04",
+					"img": "/images/work/api-network-endpoint-manager/05-app-services.png"
+				}
+			]
+		},
+		{
+			"className": 		"api-network-billing-module",
+			"title":				"API Network Billing Module",
+			"logo": 				"/images/logo-lisnr.png",
+			"img": 					"http://placekitten.com/g/800/500",
+			"role": 				"UX/UI Designer, Front-End Developer",
+			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"screens": [
+				{
+					"className": "api-network-billing-module-01",
+					"img": "/images/work/api-network-billing-module/01-dashboard.png"
+				},
+				{
+					"className": "api-network-billing-module-02A",
+					"img": "/images/work/api-network-billing-module/02A-payments.png"
+				},
+				{
+					"className": "api-network-billing-module-02B",
+					"img": "/images/work/api-network-billing-module/02B-payments.png"
+				},
+				{
+					"className": "api-network-billing-module-03",
+					"img": "/images/work/api-network-billing-module/03-accounts.png"
+				},
+				{
+					"className": "api-network-billing-module-04",
+					"img": "/images/work/api-network-billing-module/04-apis.png"
+				}
+			]
+		},
+		{
+			"className": 		"lisnr-content-portal",
 			"title":				"LISNR Content Portal",
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
@@ -9,46 +73,190 @@
 			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
 			"screens": [
 				{
-					"className": "lisnr-1",
-					"img": "http://placecorgi.com/800/600/"
+					"className": "lisnr-content-portal-01",
+					"img": "/images/work/lisnr-content-portal/01-login.png"
 				},
 				{
-					"className": "lisnr-2",
-					"img": "http://placekitten.com/g/800/800"
+					"className": "lisnr-content-portal-02A",
+					"img": "/images/work/lisnr-content-portal/02A-dashboard-new.png"
 				},
 				{
-					"className": "lisnr-3",
-					"img": "http://www.placecage.com/800/600"
+					"className": "lisnr-content-portal-02B",
+					"img": "/images/work/lisnr-content-portal/02B-dashboard-existing.png"
 				},
 				{
-					"className": "lisnr-4",
-					"img": "http://placekitten.com/g/800/600"
+					"className": "lisnr-content-portal-03",
+					"img": "/images/work/lisnr-content-portal/03-artists-all.png"
+				},
+				{
+					"className": "lisnr-content-portal-04",
+					"img": "/images/work/lisnr-content-portal/04-artist-view.png"
+				},
+				{
+					"className": "lisnr-content-portal-05",
+					"img": "/images/work/lisnr-content-portal/05-queue.png"
 				}
 			]
 		},
 		{
-			"className": 		"api-network",
-			"title":				"API Network Platform",
+			"className": 		"second-nurture-application",
+			"title":				"secondNurture Application",
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
-			"role": 				"UX/UI Designer, Front-End Developer",
+			"role": 				"UX/UI Designer",
 			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
 			"screens": [
 				{
-					"className": "api-network-1",
-					"img": "http://placecorgi.com/800/600/"
+					"className": "second-nurture-application-01",
+					"img": "/images/work/second-nurture-app/01-login.png"
 				},
 				{
-					"className": "api-network-2",
-					"img": "http://placekitten.com/g/800/800"
+					"className": "second-nurture-application-02",
+					"img": "/images/work/second-nurture-app/02-dashboard.png"
 				},
 				{
-					"className": "api-network-3",
-					"img": "http://www.placecage.com/800/600"
+					"className": "second-nurture-application-03",
+					"img": "/images/work/second-nurture-app/03-discussions.png"
 				},
 				{
-					"className": "lapi-network-4",
-					"img": "http://placekitten.com/g/800/600"
+					"className": "second-nurture-application-04",
+					"img": "/images/work/second-nurture-app/04-manage-caregivers.png"
+				},
+				{
+					"className": "second-nurture-application-05",
+					"img": "/images/work/second-nurture-app/05-profile.png"
+				}
+			]
+		},
+		{
+			"className": 		"social-application",
+			"title":				"Social Application",
+			"logo": 				"/images/logo-lisnr.png",
+			"img": 					"http://placekitten.com/g/800/500",
+			"role": 				"UI Designer",
+			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"screens": [
+				{
+					"className": "social-application-01",
+					"img": "/images/work/social-application/01-dashboard.png"
+				}
+			]
+		},
+		{
+			"className": 		"callibrity-solutions-website",
+			"title":				"Callibrity Solutions Website",
+			"logo": 				"/images/logo-lisnr.png",
+			"img": 					"http://placekitten.com/g/800/500",
+			"role": 				"UI Designer, Front-End Developer",
+			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"screens": [
+				{
+					"className": "callibrity-solutions-01",
+					"img": "/images/work/callibrity-solutions/01-home.png"
+				},
+				{
+					"className": "callibrity-solutions-02",
+					"img": "/images/work/callibrity-solutions/02-about.png"
+				},
+				{
+					"className": "callibrity-solutions-03",
+					"img": "/images/work/callibrity-solutions/03-community.png"
+				},
+				{
+					"className": "callibrity-solutions-04",
+					"img": "/images/work/callibrity-solutions/04-news.png"
+				},
+				{
+					"className": "callibrity-solutions-05",
+					"img": "/images/work/callibrity-solutions/05-mobile.png"
+				}
+			]
+		},
+		{
+			"className": 		"second-nurture-website",
+			"title":				"secondNurture Website",
+			"logo": 				"/images/logo-lisnr.png",
+			"img": 					"http://placekitten.com/g/800/500",
+			"role": 				"UI Designer, Front-End Developer",
+			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"screens": [
+				{
+					"className": "second-nurture-website-01",
+					"img": "/images/work/second-nurture-website/01-home.png"
+				},
+				{
+					"className": "second-nurture-website-02",
+					"img": "/images/work/second-nurture-website/02-about.png"
+				},
+				{
+					"className": "second-nurture-website-03",
+					"img": "/images/work/second-nurture-website/03-contact.png"
+				}
+			]
+		},
+		{
+			"className": 		"lisnr-infographic",
+			"title":				"LISNR Infographic",
+			"logo": 				"/images/logo-lisnr.png",
+			"img": 					"http://placekitten.com/g/800/500",
+			"role": 				"Designer",
+			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"screens": [
+				{
+					"className": "lisnr-infographic",
+					"img": "/images/work/lisnr-infographic/lisnr-infographic.png"
+				}
+			]
+		},
+		{
+			"className": 		"book-club-infographic",
+			"title":				"Book Club Infographic",
+			"logo": 				"/images/logo-lisnr.png",
+			"img": 					"http://placekitten.com/g/800/500",
+			"role": 				"Designer",
+			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"screens": [
+				{
+					"className": "book-club-infographic",
+					"img": "/images/work/book-club-infographic/book-club-infographic.png"
+				}
+			]
+		},
+		{
+			"className": 		"wedding-invitations",
+			"title":				"Wedding Invitations",
+			"logo": 				"/images/logo-lisnr.png",
+			"img": 					"http://placekitten.com/g/800/500",
+			"role": 				"Designer",
+			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"screens": [
+				{
+					"className": "wedding-invitations-01",
+					"img": "/images/work/wedding-invitations/01-invitations-front.png"
+				},
+				{
+					"className": "wedding-invitations-02",
+					"img": "/images/work/wedding-invitations/02-invitations-back.png"
+				},
+				{
+					"className": "wedding-invitations-03A",
+					"img": "/images/work/wedding-invitations/03A-ceremony-front.png"
+				},
+				{
+					"className": "wedding-invitations-03B",
+					"img": "/images/work/wedding-invitations/03B-ceremony-back.png"
+				},
+				{
+					"className": "wedding-invitations-04A",
+					"img": "/images/work/wedding-invitations/04A-rsvp-card-front.png"
+				},
+				{
+					"className": "wedding-invitations-04B",
+					"img": "/images/work/wedding-invitations/04B-rsvp-card-back.png"
+				},
+				{
+					"className": "wedding-invitations-05",
+					"img": "/images/work/wedding-invitations/05-mad-libs.png"
 				}
 			]
 		}
