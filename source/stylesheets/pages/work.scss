@@ -32,17 +32,24 @@
 
 	.brand {
 
-		&--api-network {
+		&--api-network-endpoint-manager,
+		&--api-network-billing-module {
+			background: url("../../images/logos/logo-api-network.png") center no-repeat;
 		}
 
 		&--lisnr-content-portal,
 		&--lisnr-infographic {
-			background-image: url("../../images/logos/logo-lisnr.png");
+			background: url("../../images/logos/logo-lisnr.png") center no-repeat;
+			background-size: 300px;
+
+			@media screen and (min-width: $screen-desktop) {
+				background-size: 75%;
+			}
 		}
 
 		&--second-nurture-application,
 		&--second-nurture-website {
-			background-image: url("../../images/logos/logo-second-nurture.png");
+			background: url("../../images/logos/logo-second-nurture.svg") center no-repeat;
 		}
 
 		&--social-application {
@@ -50,7 +57,7 @@
 		}
 
 		&--callibrity-solutions-website {
-			background: url("../../images/logos/logo-callibrity-solutions.png") center no-repeat;
+			background: url("../../images/logos/logo-callibrity-solutions.svg") center no-repeat;
 		}
 		
 		&--book-club-infographic {
@@ -60,6 +67,7 @@
 
 		&--wedding-invitations {
 			background: url("../../images/logos/logo-wedding-invitations.svg") center no-repeat;
+			background-size: 250px;
 		}
 
 		&--social-application,
@@ -67,6 +75,19 @@
 			background-size: 250px;
 		}
 
+		&--api-network-endpoint-manager,
+		&--api-network-billing-module,
+		&--lisnr-content-portal,
+		&--lisnr-infographic,
+		&--second-nurture-application,
+		&--second-nurture-website,
+		&--callibrity-solutions-website {
+			background-size: 250px;
+
+			@media screen and (min-width: $screen-desktop) {
+				background-size: 75%;
+			}
+		}
 	}
 
 	&_info {
