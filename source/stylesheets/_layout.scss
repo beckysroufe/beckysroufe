@@ -165,7 +165,7 @@
 
 			&_sample {
 				@include center-block;
-				background-color: #fff;
+				background-color: $brand-blue;
 
 				margin: $global-padding $global-padding/2;
 				height: $work-size*0.5;
@@ -189,6 +189,20 @@
 				  &:after {
 				    display: none;
 				  }
+				}
+			}
+
+			// Custom sizes for infographics to show more preview
+			.lisnr-infographic,
+			.book-club-infographic {
+				height: $work-size*1.2;
+
+				@media screen and (min-width: $screen-tablet) {
+					height: $work-size*1.45;
+				}
+
+				@media screen and (min-width: $screen-desktop) {
+					height: $work-size*1.2;
 				}
 			}
 		}

@@ -42,12 +42,21 @@
         &--second-nurture-application-01,
         &--second-nurture-application-04,
         &--second-nurture-website-03,
+        &--second-nurture-website-03,
         &--wedding-invitations-04A,
-        &--wedding-invitations-04B,
-        &--second-nurture-website-03 {
+        &--wedding-invitations-04B {
           width: auto;
           height: 100%;
         }
+
+        // Custom img styles for infographic pieces
+        &--lisnr-infographic,
+        &--book-club-infographic {
+          @media screen and (min-width: $screen-tablet) {
+            width: 100%;
+            height: auto;
+          }
+        } 
       }
 
       &:hover {
