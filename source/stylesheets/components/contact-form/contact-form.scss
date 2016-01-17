@@ -21,6 +21,11 @@
 	}
 
 	.contact-form {
+
+		@media screen and (min-width: $screen-desktop) {
+			margin-top: -40px;
+		}
+
 		&_name,
 		&_phone,
 		&_email,

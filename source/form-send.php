@@ -25,7 +25,7 @@
     $Body .= "\n";
 
     // send email 
-    $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
+    $success = mail($EmailTo, $Subject, $Body, "From: $EmailFrom");
      ?> 
         
         <p class="success">Success! Your message has been sent.</p>

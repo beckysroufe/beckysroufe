@@ -29,6 +29,21 @@
 
       img { width: 100%; }
 
+      // Custom dimensions for specific project imgs
+      .img {
+        &--api-network-endpoint-manager-05,
+        &--lisnr-content-portal-01,
+        &--second-nurture-application-01,
+        &--second-nurture-application-04,
+        &--second-nurture-website-03,
+        &--wedding-invitations-04A,
+        &--wedding-invitations-04B,
+        &--second-nurture-website-03 {
+          width: auto;
+          height: 100%;
+        }
+      }
+
       &:hover {
         background-size: 115%;
       }

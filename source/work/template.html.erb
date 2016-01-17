@@ -25,7 +25,7 @@ title: Projects | Becky Sroufe | UI Designer & Front End Developer
 			<% work.screens.each do |screen| %>
 			<li class="main--home_work_sample work-effect">
 				<a class="js-open-modal main--home_work_sample_page main-work--<%= work.className %> work-image" href="#" data-modal-id="js-popup-<%= screen.className %>">
-					<img src="<%= screen.img %>" alt="" title="" />
+					<img class="img--<%= screen.className %>" src="<%= screen.img %>" alt="" title="" />
 				</a>
 
 				<div id="js-popup-<%= screen.className %>" class="modal">
