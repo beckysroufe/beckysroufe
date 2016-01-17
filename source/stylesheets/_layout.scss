@@ -21,9 +21,9 @@
 			padding: $header-padding*1.5 $global-padding*2 $header-padding*2 50%;
 			text-align: left;
 			background: $brand-white;
-			background-image: url("http://placekitten.com/g/1400/500");
-			background-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 65%), url("http://placekitten.com/g/1400/500");
-			background-position: center top;
+			background-image: url("../../images/becky-sroufe-bg.jpg");
+			background-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.65) 65%), url("../../images/becky-sroufe-bg.jpg");
+			background-position: center 30%;
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -62,7 +62,8 @@
 				right: 0;
 				width: $avatar-size;
 				height: $avatar-size;
-				background-image: url("http://placehold.it/350x350");
+				background-image: url("../../images/becky-sroufe-headshot.jpg");
+				background-size: 120%;
 				background-position: center;
 				background-repeat: no-repeat;
 				border: 10px $brand-white solid;
