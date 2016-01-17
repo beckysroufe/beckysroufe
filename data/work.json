@@ -3,10 +3,10 @@
 		{
 			"className": 		"api-network-endpoint-manager",
 			"title":				"API Network Endpoint Manager",
-			"logo": 				"/images/logo-lisnr.png",
+			"logo": 				"/images/logos/logo-lisnr.png",
 			"img": 					"/images/work/api-network-billing-module/01-dashboard.png",
 			"role": 				"UX/UI Designer, Front-End Developer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"The challenge we faced for this project was creating a platform where developers could easily create applications with which to add and manage API services to their applications. My role was to research and construct the UX architecture, create the overall UI design and build a working prototype on the front end that would allow developers to create and manage application services.",
 			"screens": [
 				{
 					"className": "api-network-endpoint-manager-01",
@@ -40,7 +40,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"UX/UI Designer, Front-End Developer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"As a second part of the Endpoint Manager, we needed to create a billing module where developers could manage APIs, usage and pay for service. My responsibility was to research and construct the UX architecture for this system, use that to create the UI design and build the product on the front end which would allow the user to monitor usage and pay for services consumed.",
 			"screens": [
 				{
 					"className": "api-network-billing-module-01",
@@ -70,7 +70,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"UX/UI Designer, Front-End Developer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"One problem our team faced was content management - we needed to find a way to give our clients the ability to upload, manage and strategize content in our mobile application. I created the content portal solution with the aim for the user to be guided through the process of uploading app-friendly content and also allow administrators to oversee uploaded content by all users. For this project, I led the UX architecture, created the UI design and built a front end prototype.",
 			"screens": [
 				{
 					"className": "lisnr-content-portal-01",
@@ -104,7 +104,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"UX/UI Designer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"I worked with a local client on an application intended for caregivers to allow them a platform they could bring together a network of people to update, communicate and participate in caregiving. I was responsible for creating the overall user interface design for corresponding user flows that would be a clean, intuitive application providing caregivers the ability to connect with a support network and engage in communication around care needs.",
 			"screens": [
 				{
 					"className": "second-nurture-application-01",
@@ -134,7 +134,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"UI Designer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"For this project, the client wanted an initial dashboard for their application that was intended for educational groups to allow instructors to connect with students in a safe, visible environment. In accordance with branding, I created the user interface and dashboard view for this application that would provide features and functionality for users to connect and collaborate over educational needs and services.",
 			"screens": [
 				{
 					"className": "social-application-01",
@@ -148,7 +148,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"UI Designer, Front-End Developer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"I worked with a local client to create a responsive business website that would showcase their business, provide information on services and community work and work across a range of devices. My role was to create a multi-page responsive website that fit their branding as well as build the designs in code on the front end.",
 			"screens": [
 				{
 					"className": "callibrity-solutions-01",
@@ -174,7 +174,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"UI Designer, Front-End Developer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"In addition to the application, a local client requested a marketing website for their application that would help potential users and investors understand the business and application. I created the overall design for the website as well as built it responsively in front end development.",
 			"screens": [
 				{
 					"className": "second-nurture-website-01",
@@ -196,7 +196,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"Designer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"The team at LISNR wanted an infographic to send to consumers, investors and supporters that would help capture the brand from history to accomplishments. I designed an infographic that would, fitting the branding, would tell a story and explain our origins through growth and all the way to the end of year achievements.",
 			"screens": [
 				{
 					"className": "lisnr-infographic",
@@ -210,7 +210,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"Designer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"While in a local book club, I wanted to illustrate the overall books read for the year and dig into some of the data surrounding all literary selections we'd read that year. I created an infographic that provided information on various aspects of our yearly consumption of books included pages read, author stats, genres explored and more.",
 			"screens": [
 				{
 					"className": "book-club-infographic",
@@ -224,7 +224,7 @@
 			"logo": 				"/images/logo-lisnr.png",
 			"img": 					"http://placekitten.com/g/800/500",
 			"role": 				"Designer",
-			"description":	"Macaroon tootsie roll oat cake jelly donut chocolate bar. Jelly-o ice cream gingerbread tootsie roll biscuit. Ice cream marshmallow pastry oat cake gummi bears chupa chups lemon drops. Chupa chups muffin cake danish jelly-o. Halvah fruitcake lemon drops chocolate icing gingerbread gummi bears tootsie roll. Cake chocolate cake jelly-o cake icing gingerbread macaroon. Bonbon dessert lemon drops cupcake lemon drops cake biscuit chocolate.",
+			"description":	"I worked with a client to create multiple print pieces for their wedding including invitations, RSVP cards, program and a fun post-ceremony mad libs card. They wanted something that felt contemporary, fun, elegant and brought out their love of the local city.",
 			"screens": [
 				{
 					"className": "wedding-invitations-01",

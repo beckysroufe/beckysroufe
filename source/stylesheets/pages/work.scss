@@ -15,30 +15,58 @@
 	&_logo {
 		@include center-block;
 
-		height: 100px;
+		height: $logo-size*1.05;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 250px;
+		background-size: 350px;
 
 		@media screen and (min-width: $screen-tablet) {
 			background-position: left center;
-			background-size: 75%;
+			background-size: 100%;
 		}
 
 		@media screen and (min-width: $screen-desktop) {
+			background-size: 75%;
 		}
 	}
 
 	.brand {
-		&--lisnr {
-			background-image: url("../../images/logo-lisnr.png");
-		}
 
 		&--api-network {
 		}
 
-		&--callibrity {
+		&--lisnr-content-portal,
+		&--lisnr-infographic {
+			background-image: url("../../images/logos/logo-lisnr.png");
 		}
+
+		&--second-nurture-application,
+		&--second-nurture-website {
+			background-image: url("../../images/logos/logo-second-nurture.png");
+		}
+
+		&--social-application {
+			background: url("../../images/logos/logo-social-application.svg") center no-repeat;
+		}
+
+		&--callibrity-solutions-website {
+			background: url("../../images/logos/logo-callibrity-solutions.png") center no-repeat;
+		}
+		
+		&--book-club-infographic {
+			background: url("../../images/logos/logo-book-club.svg") center no-repeat;
+			background-size: 300px;
+		}
+
+		&--wedding-invitations {
+			background: url("../../images/logos/logo-wedding-invitations.svg") center no-repeat;
+		}
+
+		&--social-application,
+		&--wedding-invitations {
+			background-size: 250px;
+		}
+
 	}
 
 	&_info {

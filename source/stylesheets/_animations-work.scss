@@ -27,11 +27,17 @@
       transition: all $transition-time;
       z-index: 1;
 
-      img { width: 100%; }
+      img { 
+        width: 100%; 
+
+        @media screen and (min-width: $screen-tablet) and (max-width: $screen-lg-desktop) {
+          width: auto;
+          height: 100%;
+        }
+      }
 
       // Custom dimensions for specific project imgs
       .img {
-        &--api-network-endpoint-manager-05,
         &--lisnr-content-portal-01,
         &--second-nurture-application-01,
         &--second-nurture-application-04,
