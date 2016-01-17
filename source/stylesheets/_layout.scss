@@ -167,7 +167,7 @@
 				@include center-block;
 
 				margin: $global-padding $global-padding/2;
-				height: $work-size*0.75;
+				height: $work-size*0.5;
 
 				@media screen and (min-width: $screen-tablet) {
 					margin: $global-padding/4;
@@ -177,7 +177,7 @@
 
 				@media screen and (min-width: $screen-lg-desktop) {
 					width: 30%;
-					height: $work-size*0.8;
+					height: $work-size*0.6;
 				}
 
 				&_page {
@@ -234,8 +234,44 @@
 
 // Home Page > Work Samples
 .home-work {
-	&--lisnr {
-		background-image: url("http://placekitten.com/g/1200/800");
+	&--api-network-billing-module {
+		background-image: url("/images/work/api-network-billing-module/01-dashboard.png");
+	}
+
+	&--api-network-endpoint-manager {
+		background-image: url("/images/work/api-network-endpoint-manager/02B-dashboard-list.png");
+	}
+
+	&--lisnr-content-portal {
+		background-image: url("/images/work/lisnr-content-portal/03-artists-all.png");
+	}
+
+	&--second-nurture-application {
+		background-image: url("/images/work/second-nurture-application/02-dashboard.png");
+	}
+
+	&--social-application {
+		background-image: url("/images/work/social-application/01-dashboard.png");
+	}
+
+	&--callibrity-solutions-website {
+		background-image: url("/images/work/callibrity-solutions-website/01-home.png");
+	}
+
+	&--second-nurture-website {
+		background-image: url("/images/work/second-nurture-website/01-home.png");
+	}
+
+	&--lisnr-infographic {
+		background-image: url("/images/work/lisnr-infographic/lisnr-infographic.png");
+	}
+
+	&--book-club-infographic {
+		background-image: url("/images/work/book-club-infographic/book-club-infographic.png");
+	}
+
+	&--wedding-invitations {
+		background-image: url("/images/work/wedding-invitations/01-invitations-front.png");
 	}
 }
 

@@ -20,9 +20,9 @@
       display: block;
       min-height: 100%;
       max-width: 100%;
-      background-position: center;
+      background-position: center top;
       background-repeat: no-repeat;
-      background-size: 150%;
+      background-size: 100%;
       -webkit-transition: all $transition-time;
       transition: all $transition-time;
       z-index: 1;
@@ -30,7 +30,7 @@
       img { width: 100%; }
 
       &:hover {
-        background-size: 155%;
+        background-size: 115%;
       }
     }
 

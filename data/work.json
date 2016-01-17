@@ -108,23 +108,23 @@
 			"screens": [
 				{
 					"className": "second-nurture-application-01",
-					"img": "/images/work/second-nurture-app/01-login.png"
+					"img": "/images/work/second-nurture-application/01-login.png"
 				},
 				{
 					"className": "second-nurture-application-02",
-					"img": "/images/work/second-nurture-app/02-dashboard.png"
+					"img": "/images/work/second-nurture-application/02-dashboard.png"
 				},
 				{
 					"className": "second-nurture-application-03",
-					"img": "/images/work/second-nurture-app/03-discussions.png"
+					"img": "/images/work/second-nurture-application/03-discussions.png"
 				},
 				{
 					"className": "second-nurture-application-04",
-					"img": "/images/work/second-nurture-app/04-manage-caregivers.png"
+					"img": "/images/work/second-nurture-application/04-manage-caregivers.png"
 				},
 				{
 					"className": "second-nurture-application-05",
-					"img": "/images/work/second-nurture-app/05-profile.png"
+					"img": "/images/work/second-nurture-application/05-profile.png"
 				}
 			]
 		},
@@ -152,23 +152,23 @@
 			"screens": [
 				{
 					"className": "callibrity-solutions-01",
-					"img": "/images/work/callibrity-solutions/01-home.png"
+					"img": "/images/work/callibrity-solutions-website/01-home.png"
 				},
 				{
 					"className": "callibrity-solutions-02",
-					"img": "/images/work/callibrity-solutions/02-about.png"
+					"img": "/images/work/callibrity-solutions-website/02-about.png"
 				},
 				{
 					"className": "callibrity-solutions-03",
-					"img": "/images/work/callibrity-solutions/03-community.png"
+					"img": "/images/work/callibrity-solutions-website/03-community.png"
 				},
 				{
 					"className": "callibrity-solutions-04",
-					"img": "/images/work/callibrity-solutions/04-news.png"
+					"img": "/images/work/callibrity-solutions-website/04-news.png"
 				},
 				{
 					"className": "callibrity-solutions-05",
-					"img": "/images/work/callibrity-solutions/05-mobile.png"
+					"img": "/images/work/callibrity-solutions-website/05-mobile.png"
 				}
 			]
 		},
