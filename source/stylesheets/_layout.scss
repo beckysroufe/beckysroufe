@@ -100,6 +100,21 @@
 		&_description {
 			font-size: $font-size-base*1.5;
 		}
+
+		a {
+			@media screen and (min-width: $screen-desktop) {
+				color: $brand-white;
+				text-shadow: 0 -1px rgba(0, 0, 0, 0.25);
+
+				&:after {
+		      background: $brand-white;
+		    }
+
+				&:hover {
+					color: $brand-white;
+				}
+			}
+		}
 	}
 }
 
